@@ -1,0 +1,49 @@
+.one{
+background-color:black;
+
+width: 95%;
+height: 300px;
+color: blueviolet;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+
+}
+
+.imges{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imges2:hover a{
+    opacity: 0.55;
+}
+
+.imges:hover img{
+    opacity: 0.55;
+}
+.imges2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imges2 a{
+    opacity: 0;
+}
+
+a link{
+    color: blue;
+}
+.imges:visited{
+    color: purple;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 400px;
+}
+
+.foot:hover{
+    opacity: 0.77;
+}
